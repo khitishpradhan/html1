@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>registration form</title>
+</head>
+<style>body{background:red;}</style>
+<body>
+<fieldset>
+<form>
+<legend>REGISTRATION FORM</legend>
+<form method="POST" action="process.php">
+NAME:<br/>
+<input type="text" name="NAME" value="" placeholder="enter name"/>
+<br/>
+DATE OF BIRTH:<br/>
+<input type="date"/>
+<br/>
+AGE:<br/>
+<input type="integer"/>
+<br/>
+GENDER:<br/>
+<input type="radio" name="gender" value="male"/>male
+<input type="radio" name="gender" value="female"/>female
+<br/>
+Email:<br/>
+<input type="email" name="email" value=""/>
+<br/>
+MOBILE NO.:<br/>
+<input type="mobile" name="mobile_no." value=""/>
+<br/>
+USERNAME:<br/>
+<input type="text" name="uname" value="" placeholder="username"/>
+<br/>
+PASSWORD:<br/>
+<input type="password" name="upass" value="" placeholder="password"/>
+<br/>
+ADDRESS:<br/>
+<textarea name="address" cols="25" rows="5"></textarea>
+<br/>
+HOBBIES:<br/>
+<input type="checkbox" name="hobbies" value="videogames"/>videogames
+<input type="checkbox" name=hobbies"
+value="reading books"/>Reading books
+<input type="checkbox" name="hobbies" value="watching movies"/>Watching movies
+<br/>
+<input type="submit"
+value="SUBMIT"/>
+<input type="reset" value="RESET"/>
+</form>
+</fieldset>
+</body>
+</html>
