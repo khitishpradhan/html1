@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>login page</title>
+</head>
+<style>
+body{background:orange;}</style>
+<body>
+<fieldset>
+<form>
+<legend>LOGIN FORM</legend>
+<form method="POST" action+"process.php">
+USERNAME:<br/>
+<input type="text" name="uname" value="" placeholder="Enter username"/>
+<br/>
+PASSWORD:<br/>
+<input type="password" name="upass" placeholder="Enter password"/>
+<br/>
+TYPE OF USER:<br/>
+<select name="utype" size="1">
+<option value="1">Admin</option>
+<option value="2">Faculty</option>
+<option value="3">Student</option>
+</select>
+<br/>
+GENDER:<br/>
+<input type="radio" name="gender" value="male"/>male
+<input type="radio" name="gender" value="female"/>female
+<br/>
+<input type="submit" value="login"/>
+<br/>
+
+ADDRESS:
+<br/>
+<textarea name="address" cols="25" rows="5"></textarea>
+<br/>
+CHOOSE BROWSER:
+<br/>
+<input type="text" list="browsers"/>
+<datalist id="browsers"/>
+<option value="mozilla">mozilla</option>
+<option value="internetexplorer">internet explorer</option>
+<option value="chrome">google chrome</option>
+</datalist>
+<br/>
+Email:<br/>
+<input type="email" name="email" value=""/>
+<input type="file" name="upload"/>
+</form>
+</fieldset>
+</body>
+</html>
